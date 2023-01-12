@@ -27,13 +27,13 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://54.178.74.89:8081/repository/sample-snapshots/</url>
+		    <id>libs-snapshot-local/</id>
+		    <url>http://18.233.169.172:8081/artifactory/libs-snapshot-local/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://54.178.74.89:8081/repository/sample-releases/</url>
+		    <id>libs-snapshot-local/</id>
+		    <url>http://18.233.169.172:8081/artifactory/libs-snapshot-local/</url>
 		</repository>
   	</distributionManagement>
 	
